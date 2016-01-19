@@ -660,14 +660,14 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .title-area .line {
-  background-color: #777;
+  background-color: #303030;
   display: inline-block;
   height: 2px;
   width: 60px;
 }
 
 .title-area p {
-  color: #777777;
+  color: #303030777;
   line-height: 25px;
   margin-top: 20px;
   text-align: justify;
@@ -984,7 +984,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .service-title {
-	color: #fbaf1a;
+	color: #65686d;
   font-family: 'Montserrat',serif;
 	font-size: 23px;
 	font-weight: 300;
@@ -1002,7 +1002,7 @@ ul.services  li {
       font-size: 15px;
     line-height: 18px;
     list-style-type: circle;
-    color: #777;
+    color: #303030;
 }
 
 
@@ -1196,7 +1196,7 @@ ul.services  li {
 .single-team-member > p {
   line-height: 6px;
  
-  color: #777777;
+  color: #303030777;
   font-size: 13px;
   line-height: 20px;
   padding: 0 10px;
@@ -1411,9 +1411,9 @@ ul.services  li {
 .blog-news-title h2,
 .blog-news-title h2>a{
   color: #6df72;
-  font-family: 'Montserrat',serif;
   font-size: 20px;
   font-weight: 500;
+  line-height: 20px;
   text-transform: uppercase; 
   padding: 0; 
   -webkit-transition: all 0.5s;
@@ -1446,8 +1446,7 @@ ul.services  li {
 
 .blog-news-details p{
   font-size: 14px;
-  color: #65686d
-  ;
+  color: #303030;
 }
 
 .blog-more-btn {
