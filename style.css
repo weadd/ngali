@@ -1,9 +1,9 @@
 
 /*
-Template Name: Intensely
-Author: MarkUps
-Author URI: http://www.markups.io/
-Description: Intensely - Multipurpose Business HTML5 Template.
+Template Name: Ngali Holdings
+Author: Weadd
+Author URI: http://weadd.design
+Description: Ngali Holdings web template
 Version: 1.0
 Tags: light, white, single page, multipurpose, multi page, custom-colors, Bootstrap, responsive, html5, css3
 */
@@ -42,9 +42,7 @@ Tags: light, white, single page, multipurpose, multi page, custom-colors, Bootst
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,900italic);
-body,html{
 
-}
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -52,6 +50,9 @@ body {
 	overflow-x: hidden !important;
 	color: #6df72;
   font-weight: 100;
+  display: block;
+  margin: auto;
+
 }
 
 ul{
@@ -71,7 +72,7 @@ a:focus{
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -594,7 +595,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 .slide-article h1 {
   color: #fbaf1a;
   font-size: 90px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 70px;
   margin: 4px;
   text-transform: uppercase;
@@ -1003,6 +1004,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 ul.services  li {
   font-size: 15px;
   line-height: 18px;
+  padding-bottom: 6px;
   list-style: disc;
   color: #303030;
 }
@@ -1414,11 +1416,12 @@ ul.services  li {
 .blog-news-title h2,
 .blog-news-title h2>a{
   color: #6df72;
+  padding-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 20px;
   text-transform: uppercase;
-  padding: 0;
+
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -1458,6 +1461,7 @@ ul.services  li {
   font-size: 14px;
   margin-top: 15px;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .blog-more-btn:hover,
@@ -2347,9 +2351,12 @@ ul.services  li {
 	  right: 4%;
 	}
   .slide-article {
-    padding-left: 30px;
-    padding-right: 0;
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 25%;
+    width: 100%;
   }
   .slide-article h1 {
     font-size: 40px;
@@ -2379,9 +2386,12 @@ ul.services  li {
     right: 3%;
   }
   .slide-article {
-    padding-left: 60px;
-    padding-right: 0;
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 25%;
+    width: 100%;
   }
   .slide-article h1 {
     font-size: 30px;
@@ -2461,7 +2471,12 @@ ul.services  li {
     display: none;
   }
   .slide-article {
-    padding-top: 25%px;
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25%;
+    width: 100%;
   }
   .title-area {
     padding: 0 30px;
@@ -2512,7 +2527,7 @@ ul.services  li {
   .slide-article h1 {
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
   }
   .slide-article p {
     margin-bottom: 15px;
@@ -2610,8 +2625,12 @@ ul.services  li {
     top: 5px;
   }
   .slide-article {
-    padding-top: 0;
-    padding-left: 0;
+    display: inline;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25%;
+    width: 100%;
   }
   .slide-article p {
     font-size: 12px;
