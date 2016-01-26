@@ -1580,6 +1580,7 @@ ul.services  li {
 }
 
 .footer-right{
+	color: #fff;
   display: inline;
   float: left;
   text-align: right;
